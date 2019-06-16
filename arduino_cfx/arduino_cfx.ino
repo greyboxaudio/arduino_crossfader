@@ -34,8 +34,8 @@ void loop() {
                   volA=255;
                   volB=255;
                 }
-                analogWrite(volA, outA);
-                analogWrite(volB, outB);
+                analogWrite(outA, volA);
+                analogWrite(outB, volB);
 
                 /*these lines are just for debugging*/
                 /*
